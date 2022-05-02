@@ -1,0 +1,19 @@
+# Docker files
+.dockerignore
+docker-compose.yml
+.docker/db/
+.docker/Dockerfile
+
+# OS Specific files
+.DS_Store
+thumbs.db
+
+# Project files
+.git/
+.gitignore
+.gitkeep
+*.sample
+*.md
+LICENSE
+*.env*
+vendor/

@@ -1,0 +1,14 @@
+{
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+      "ext-mysqli": "*",
+      "ext-http": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Setup\\": "scripts"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "3.*",
+        "php-di/php-di": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "tests/App"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpdbg -qrr ./vendor/bin/phpunit tests",
+        "code-coverage": "php -d pcov.enabled=1 ./vendor/bin/phpunit tests"
+    }
+}

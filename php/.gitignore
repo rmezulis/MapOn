@@ -1,0 +1,15 @@
+# OS specifics
+.DS_Store
+thumbs.db
+
+# Docker db cache, SSL keys and .env
+.docker/db/
+.docker/apache2/ssl/
+.env
+
+# IDE Files
+.vscode
+
+# Composer files
+composer.lock
+/vendor/
